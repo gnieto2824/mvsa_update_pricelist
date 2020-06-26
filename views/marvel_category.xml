@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record model="ir.ui.view" id="marvel_category_form_view">
+        <field name="name">marvel.category.form</field>
+        <field name="model">marvel.category</field>
+        <field name="arch" type="xml">
+         <form string="Categories Marvel Form">
+           <sheet>
+             <group>
+               <field name="category_name"/>
+               <field name="active"/>
+             </group>
+            </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="marvel_category_tree_view">
+        <field name="name">marvel.category.tree</field>
+        <field name="model">marvel.category</field>
+        <field name="arch" type="xml">
+         <tree string="Categories Marvel Tree">
+             <field name="category_name"/>
+             <field name="active"/>
+           </tree>
+       </field>
+   </record>
+
+    <record model="ir.actions.act_window" id="marvel_category_list_action">
+         <field name="name">Marvel Categories</field>
+         <field name="res_model">marvel.category</field>
+         <field name="view_type">form</field>
+         <field name="view_mode">tree,form</field>
+         <field name="help" type="html">
+           <p class="oe_view_nocontent_create">Create the first Category to update its prices
+           </p>
+         </field>
+     </record>
+
+   <menuitem id="marvel_category_menu" name="Marvel Categories" parent="stock.menu_stock_inventory_control" action="marvel_category_list_action" />
+
+
+</odoo>
