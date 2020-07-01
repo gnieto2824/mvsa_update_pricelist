@@ -41,7 +41,7 @@
          </field>
      </record>
 
-   <menuitem id="marvel_currency_menu" name="Marvel Rates" parent="stock.menu_stock_inventory_control" action="marvel_currency_list_action" />
+   <menuitem id="marvel_currency_menu" name="Marvel Rates" parent="sale.product_menu_catalog" action="marvel_currency_list_action" />
 
 
 </odoo>

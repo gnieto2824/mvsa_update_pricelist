@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_marvel_currency_manager,marvel.currency,model_marvel_currency,,1,1,1,1
+access_marvel_currency_user,marvel.currency,model_marvel_currency,,1,1,1,0
+access_marvel_currency_manager,marvel.category,model_marvel_category,,1,1,1,1
+access_marvel_currency_user,marvel.category,model_marvel_category,,1,1,1,0

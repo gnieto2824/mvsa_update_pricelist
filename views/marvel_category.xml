@@ -37,7 +37,7 @@
          </field>
      </record>
 
-   <menuitem id="marvel_category_menu" name="Marvel Categories" parent="stock.menu_stock_inventory_control" action="marvel_category_list_action" />
+   <menuitem id="marvel_category_menu" name="Marvel Categories" parent="sale.product_menu_catalog" action="marvel_category_list_action" />
 
 
 </odoo>

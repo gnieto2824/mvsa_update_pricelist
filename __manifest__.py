@@ -9,8 +9,10 @@
         'product','stock', 'account'
     ],
     'data': [
+        #Security
+        'security/ir.model.access.csv',
 
-        #    'security/ir.model.access.csv',
+        #Views
         'views/Update_PriceList.xml',
         'views/marvel_currency.xml',
         'views/marvel_category.xml'
